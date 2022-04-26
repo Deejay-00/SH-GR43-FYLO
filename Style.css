@@ -1,0 +1,353 @@
+   @import url('https://fonts.google.com/specimen/Open+Sans');
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    font-size: 14px;
+
+}
+
+/* Header Section */
+
+.fylo-header{
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+}
+.fylo-nav img{
+    padding-left: 25px;
+    align-items: left;
+    margin-top: 30px;
+}
+.fylo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.fylo-nav ul{
+    display: flex;
+    padding-right: 25px;
+}
+.fylo-nav ul li{
+    list-style-type: none;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.fylo-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.fylo-nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.intro-section{
+    margin: 10rem 0;
+}
+.intro-section h2{
+    padding: 20px 0;
+    line-height: 30px;
+    word-spacing: 4px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.intro-section p{
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+}
+
+.start-btn{
+    padding: 7px 45px;
+    color: #ffffff;
+    background: hsl(198, 60%, 50%);
+    border: none;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-variant: capitalize;
+}
+
+.start-btn:hover{
+    color: #ffffff;
+    background-color: hsl(176, 68%, 64%);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+/* files function section */
+.files-section{
+    background-image: url('/Image/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+
+
+.files {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center;
+    margin: 40px 0;
+
+}
+
+.files h2{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 22px;
+    padding-top: 5px;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+.your-files{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.files p{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Productive section */
+
+.productive{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.productive-text{
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.productive-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+.top{
+    margin: 10px 0;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+.bottom{
+    margin-bottom: 10px 0;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+.productive-text a{
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+    align-items: baseline;
+    display: flex;
+    text-align: justify;
+}
+
+.fylo-work{
+    margin-right: 10px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 2px;
+
+}
+
+
+.testimony-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    gap: 50px;
+}
+
+.quote{
+    position: absolute;
+    top: 139rem;
+    left: 90px;
+}
+
+.testitmony-container{
+    margin: 0 10px;
+    /* background-image: url('/Image/bg-quotes.png'); */
+
+}
+
+.testitmony-card{
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.testitmony-card p{
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: justify;
+    text-justify: inter-word;
+    letter-spacing: 0.5px;
+
+}
+
+.testimony-description{
+    display: flex;
+}
+
+.testimony-description img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+.des-text{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+.des-text span{
+    font-size: 9px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+/* get started section */
+
+.sign-container{
+    /* width: 750px;
+    height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0;
+}
+
+.sign-card {
+    background-color: hsl(219, 30%, 18%);
+    padding: 20px;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sign-card h3 {
+    font-size: 22px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.sign-card p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+    padding: 10px 0;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.sign-form{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 25px 0;
+}
+
+.e-mail{
+    /* line-height: 4px; */
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    padding-left: 10px;
+
+}
+
+.trial-btn{
+    width: 250px;
+    height: 50px;
+    color: #ffffff;
+    background: hsl(198, 60%, 50%);
+    border: none;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.trial-btn:hover{
+    color: #ffffff;
+    background-color: hsl(176, 68%, 64%);
+    transition: 0.5s ease-in-out;
+}
+
+.e-mail:focus{
+    border: none;
+    outline: none;
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    font-family: 'Raleway', sans-serif;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 2rem 0; */
+}
+
+.footer-logo {
+    margin-top: 4rem;
+}
+
+.foots{
+
+}
+
+#location{
+    
+    align-items: center;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+}
